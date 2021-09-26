@@ -1,0 +1,19 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "rest api fullstack app",
+  "main": "servapp.js",
+  "scripts": {
+    "start": "node servapp.js",
+    "dev": "nodemon servapp.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
