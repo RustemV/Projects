@@ -1,7 +1,10 @@
 'use strict';
 
-const box = document.getElementById('box');
-const btns = document.getElementsByTagName('button');
-const circles = document.getElementsByClassName('circle');
-const hearts = document.querySelectorAll('.heart');
-const oneHeart = document.querySelector('.heart');
+const box = document.getElementById('box'),
+    btns = document.getElementsByTagName('button'),
+    circles = document.getElementsByClassName('circle'),
+    hearts = document.querySelectorAll('.heart'),
+    oneHeart = document.querySelector('.heart');
+
+box.style.backgroundColor = 'blue';
+box.style.width = '500px';
