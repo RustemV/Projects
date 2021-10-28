@@ -16,5 +16,17 @@ const deleteElement = (e) => {
         btn.removeEventListener('click', deleteElement);
     }
 }
-btn.addEventListener('click', deleteElement);
+btn.addEventListener('click', deleteElement, {once: true});
 
+const link = document.querySelector('a');
+
+link.addEventListener('click', event => {
+    event.preventDefault();
+    console.log(event.target);
+});
+
+const btns = document.querySelectorAll('button');
+
+btns.forEach( btn => {
+    btn.addEventListener('click', функция-обработчик);
+});
