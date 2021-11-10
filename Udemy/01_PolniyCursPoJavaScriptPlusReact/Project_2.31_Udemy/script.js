@@ -16,6 +16,7 @@ const deleteElement = (e) => {
         btn.removeEventListener('click', deleteElement);
     }
 }
+
 btn.addEventListener('click', deleteElement, {once: true});
 
 const link = document.querySelector('a');
