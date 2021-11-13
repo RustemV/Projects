@@ -30,29 +30,37 @@ document.addEventListener('DOMContentLoaded', () => {
         poster          = document.querySelector('.promo__bg'),
         divPromoGenre   = poster.querySelector(".promo__genre"),
         movieList       = document.querySelector('.promo__interactive-list'),
+        // Baskets         = movieList.querySelectorAll('.delete'),
         addForm         = document.querySelector('form.add'),
         addInput        = addForm.querySelector('.adding__input'),
-        checkbox        = addForm.querySelector('[type="checkbox]');
+        checkbox        = addForm.querySelector('[type="checkbox"]');
 
     addForm.addEventListener('submit', (event) => {
         event.preventDefault();         //предотвращает перезагрузку страницы
 
-        const newMovie = addInput.value;
+        let newMovie = addInput.value;
         const favorite = checkbox.checked;
 
-        if (newFilm) {          // если в input не пустое значение
+        if (newMovie) {          // если в input не пустое значение
+
+            if (newMovie.length > 21) {
+                newMovie = `${newMovie.substr(0,21)}...`;
+            }
+
+            if (favorite) {
+                console.log('Добавляем любимый фильм');
+            }
 
             movieDB.movies.push(newMovie);
             sortArr(movieDB.movies);
-
             createMovieList(movieDB.movies, movieList);
         
         };
 
-        event.target.reset;     // очищаем форму
+        event.target.reset();     // очищаем форму
 
     });
-   
+
     const deleteAdv = (arr) => {
         arr.forEach( item => {
             item.remove();
@@ -61,9 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const makeChanges = () => {
         divPromoGenre.textContent = 'Драма';
-
         poster.style.backgroundImage = 'url("img/bg.jpg")';
-    
     };
 
     const sortArr = (arr) => {
@@ -77,9 +83,18 @@ document.addEventListener('DOMContentLoaded', () => {
         films.forEach( (film, key) => {
             parent.innerHTML += `
                 <li class="promo__interactive-item">${key + 1} ${film}
-                    <div class="delete"></div>
+                    <div class="delete"></div> 
                 </li>
             `;
+        });
+
+        document.querySelectorAll('.delete').forEach((basket, i) => {
+            basket.addEventListener('click', (e) => {
+                basket.parentElement.remove();  // удаляем элемент со страницы
+                movieDB.movies.splice(i, 1);    // удаляем элемент из БД
+                createMovieList(films, parent); // перестроение списка после удаления элемента
+            });
+
         });
 
     };
@@ -89,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sortArr(movieDB.movies);
     createMovieList(movieDB.movies, movieList);
 
+});
 
     /* ===========================================
     Задания на урок 33:
@@ -107,15 +123,3 @@ document.addEventListener('DOMContentLoaded', () => {
     "Добавляем любимый фильм"
 
     5) Фильмы должны быть отсортированы по алфавиту */
-
-
-    // 1) Реализовать функционал, что после заполнения формы и нажатия кнопки "Подтвердить" - 
-    // новый фильм добавляется в список. Страница не должна перезагружаться.
-    // Новый фильм должен добавляться в movieDB.movies.
-    // Для получения доступа к значению input - обращаемся к нему как input.value;
-    // P.S. Здесь есть несколько вариантов решения задачи, принимается любой, но рабочий.
-
-
-
-
-});
