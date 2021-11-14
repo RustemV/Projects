@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sortArr(movieDB.movies);
             createMovieList(movieDB.movies, movieList);
         
-        };
+        }
 
         event.target.reset();     // очищаем форму
 
@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createMovieList(films, parent) {
         
         parent.innerHTML = '';
+        sortArr(films);
 
         films.forEach( (film, key) => {
             parent.innerHTML += `
@@ -97,11 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         });
 
-    };
+    }
 
     deleteAdv(divPromoAdv);
     makeChanges();
-    sortArr(movieDB.movies);
     createMovieList(movieDB.movies, movieList);
 
 });
