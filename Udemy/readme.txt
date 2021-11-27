@@ -1,2 +1,2 @@
 https://www.udemy.com
-rv-csi@yandex.ru/udemy2021
+rv-csi@yandex.ru/Udemy2021
