@@ -69,20 +69,20 @@ window.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    function updateClock (endTime) {
-        const t = getTimeRemaining(endTime);
+    function updateClock () {
+        const timeRemaining = getTimeRemaining(deadline);
 
-        if (t.total<=0) {
+        if (timeRemaining.total<=0) {
             clearInterval(timerId);
         } else {
-            elemDays.innerHTML    = t.days;
-            elemHours.innerHTML   = t.hours;
-            elemMinutes.innerHTML = t.minutes;
-            elemSeconds.innerHTML = t.seconds;
+            elemDays.innerHTML    = timeRemaining.days;
+            elemHours.innerHTML   = timeRemaining.hours;
+            elemMinutes.innerHTML = timeRemaining.minutes;
+            elemSeconds.innerHTML = timeRemaining.seconds;
         }
         
     }
     
-    const timerId = setInterval(updateClock(deadline), 1000);
+    const timerId = setInterval(updateClock, 1000);
 
 });
