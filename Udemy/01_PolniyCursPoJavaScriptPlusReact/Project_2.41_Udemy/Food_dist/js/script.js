@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     // Timer
-    const deadline    = '2021-12-10',
+    const deadline    = '2022-05-20',
           elemDays    = document.querySelector('#days'),
           elemHours   = document.querySelector('#hours'),
           elemMinutes = document.querySelector('#minutes'),
@@ -69,20 +69,29 @@ window.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    function updateClock () {
-        const timeRemaining = getTimeRemaining(deadline);
+    function to2digits(num) {   // функция приведения чисел к двухзначному виду
+        if (Math.abs(num)<10) {
+            num = `0${num}`;
+        }
+        return num;
+    }
+
+    function updateClock (endTime) {
+        const timeRemaining = getTimeRemaining(endTime);
 
         if (timeRemaining.total<=0) {
             clearInterval(timerId);
         } else {
-            elemDays.innerHTML    = timeRemaining.days;
-            elemHours.innerHTML   = timeRemaining.hours;
-            elemMinutes.innerHTML = timeRemaining.minutes;
-            elemSeconds.innerHTML = timeRemaining.seconds;
+            elemDays.innerHTML    = to2digits(timeRemaining.days);
+            elemHours.innerHTML   = to2digits(timeRemaining.hours);
+            elemMinutes.innerHTML = to2digits(timeRemaining.minutes);
+            elemSeconds.innerHTML = to2digits(timeRemaining.seconds);
         }
         
     }
     
-    const timerId = setInterval(updateClock, 1000);
+    updateClock();  // первый вызов сразу устраняет появление значений из вёрстки при обновлении html-страницы
+    const timerId = setInterval( () => updateClock(deadline), 1000);    // периодический вызов для 
+                                                                        // обновления таймера на странице
 
 });
