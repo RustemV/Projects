@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Азимут Телеком</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet'
+        type='text/css'> <!-- Заголовки в меню  -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic-ext' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="spinner"></div>
+    <div class="extra">
+        <div class="main1">
+            <div class="main2">
+
+                <header>
+                    <a href="index.html" class="logo">
+						<img src="images/logo__.png">
+					</a>
+                    <div class="phone">
+                        <span>+7 495 72 73 600, +7 495 240 53 53</span><br><a href="mailto:INFO@AZIMUTTELECOM.RU">INFO@AZIMUTTELECOM.RU</a>
+                    </div>
+                </header>
+
+                <nav class="menu">
+                    <ul id="menu">
+                        <li><a href="#!/page_HOME"><b>Главная</b><span>Главная</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_ABOUT"><b>О нас</b><span>О нас</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_SERVICES"><b>Услуги</b><span>Услуги</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_TARIFS"><b>Тарифы</b><span>Тарифы</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_LICENSE"><b>Лицензии</b><span>Лицензии</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_PODKL"><b>Подключение</b><span>Подключение</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_TP"><b>Техническая поддержка</b><span>Техническая поддержка</span></a></li>
+                        <li class="markers"></li>
+                        <li><a href="#!/page_DOCS"><b>Документы</b><span>Документы</span></a></li>
+                    </ul>
+                </nav>
+
+                <!--content -->
+                <article id="content">
+
+                    <ul>
+
+                        <li id="page_HOME">
+                            <div id="tabs" class="stContainer">
+
+                                <ul>
+                                    <li><a href="#tabs-1"></a></li>
+                                    <li><a href="#tabs-2"></a></li>
+                                    <li><a href="#tabs-3"></a></li>
+                                </ul>
+
+                                <div id="tabs-1">
+                                    <img src="images/slide01.png">
+                                    <div class="caption">
+                                        <div class="txt1">ПРОФЕССИОНАЛЬНЫЕ</div>
+                                        <div class="txt2"><span>КОММУНИКАЦИОННЫЕ</span></div>
+                                        <div class="txt1"> РЕШЕНИЯ</div>
+                                    </div>
+                                </div>
+
+                                <div id="tabs-2">
+                                    <img src="images/slide02.png">
+                                    <div class="caption">
+                                        <div class="txt1">ИНТЕРНЕТ</div>
+                                        <div class="txt2"><span>И ТЕЛЕФОНИЯ</span></div>
+                                    </div>
+                                </div>
+
+                                <div id="tabs-3">
+                                    <img src="images/slide03.png">
+                                    <div class="caption">
+                                        <div class="txt1">24 <span>/</span> 7 <span>/</span> 365</div>
+                                        <div class="txt2"><span>ТЕХНИЧЕСКАЯ</span> ПОДДЕРЖКА</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="page_ABOUT">
+                            <div class="box">
+                                <h2>О нас</h2>
+                                <div class="col7">
+                                    <div class="scroll-pane">
+                                        <p class="text">
+                                            <span class="color1">«АЗИМУТ ТЕЛЕКОМ»</span> первая аккредитованная
+                                            компания, предоставляющая
+                                            телекоммуникационные услуги на территории  БП «Румянцево», БЦ «Кусково» и
+                                            ТРК «Новомосковский».
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">«АЗИМУТ ТЕЛЕКОМ»</span> владеет собственной
+                                            оптоволоконной сетью построенной
+                                            на базе новейшего оборудования «Cisco Systems, Inc.».
+                                            Сотрудники компании имеют многолетний опыт работы в телекоммуникационной
+                                            отрасли.
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">«АЗИМУТ ТЕЛЕКОМ»</span> предоставляет услуги
+                                            высокоскоростного доступа в
+                                            Интернет, услуги цифровой телефонной связи, а также услуги аренды каналов
+                                            связи.
+                                        </p>
+                                        <p class="text">
+                                            Нашим клиентам мы предлагаем надежную и безопасную сетевую инфраструктуру и
+                                            высококвалифицированную
+                                            техническую поддержку.
+                                        </p><br>
+                                        <p class="text" style="font-size: 14px">
+                                            <b>Информация об операторе</b>
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">Наименование оператора:</span> Общество с ограниченной
+                                            ответственностью «АЗИМУТ ТЕЛЕКОМ»
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">Место нахождения:</span> 108811, г. Москва, километр
+                                            Киевское
+                                            шоссе 22-й (п Московский), домовлад. 4, стр. 2, этаж цок., блок В, пав.
+                                            114/1В
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">Номера телефонов системы информационно-справочного
+                                                обслуживания:</span>
+                                            +7 (495) 727-36-00, +7 (495) 240-53-53
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">График работы офисов обслуживания абонентов:</span>
+                                            понедельник – пятница
+                                            с 9:00 до 18:00, суббота и воскресенье – выходные дни.
+                                        </p>
+                                        <p class="text">
+                                            <span class="color1">Место нахождения офисов обслуживания абонентов: </span>
+                                        </p>
+                                        <p class="text">
+                                            <b>Офис Румянцево:</b> 108811, г. Москва, п. Московский, Киевское шоссе, 22-й км,
+                                            домовлад. 4, стр. 2, этаж цок., блок В, пав. 114/1В. <br>
+                                        </p>
+                                        <p class="text">
+                                            <b>Офис Кусково</b>: 111141, г. Москва, ул. Кусковская, д.20А, 6 этаж,
+                                            пандус корпуса Г. <br>
+                                        </p>
+                                        <p class="text">
+                                            <b>Офис Новомосковский</b>: 108811, г. Москва, г. Московский, ул. Хабарова,
+                                            д. 2, блок 1-4, офис 906.
+                                        </p>
+                                        <div class="clear"></div>
+                                    </div> <!--class="scroll-pane"-->
+                                </div> 	<!--class="col7"-->
+							</div> 	<!--class="box"-->
+                        </li>
+
+                        <li id="page_SERVICES">
+                            <div class="box">
+                                
+								<div class="col7">
+                                   <h2>Услуги</h2>
+
+                                    <div class="scroll-pane">
+                                        <div class="text">
+                                            <p class="text">
+												<span class="color1">«АЗИМУТ ТЕЛЕКОМ»</span> предоставляет своим
+												клиентам услуги
+                                                высокоскоростного доступа к сети Интернет, телефонизации офисов и
+                                                организации каналов связи.
+                                            </p>
+                                            <p class="text" style="font-size: 16px">
+                                                <b>Перечень услуг связи, оказываемых <span class="color1">АЗИМУТ
+                                                        ТЕЛЕКОМ</span>:</b>
+                                            </p>
+                                            <p class="text">
+                                                <span class="color1">1. Услуги связи по передаче данных </span> по
+                                                технологиям
+                                                10BASE-T/100BASE-T/1000BASE-T/TX/1000BASE-X. Оказываются на основании
+                                                Лицензии Роскомнадзора
+                                                на оказание услуг связи по передаче данных, за исключением услуг связи
+                                                по передаче данных
+                                                для целей передачи голосовой информации № 151107 от 30.03.2017 г.
+                                                <br>Состав услуги связи по передаче данных:
+                                                <br> а) доступ к сети связи АЗИМУТ ТЕЛЕКОМ;
+                                                <br> б) соединения по сети передачи данных АЗИМУТ ТЕЛЕКОМ, за
+                                                исключением соединений
+                                                для целей передачи голосовой информации;<br> 
+                                                в) доступ к услугам передачи данных операторов, сети передачи
+                                                данных которых
+                                                взаимодействуют с сетями передачи данных АЗИМУТ ТЕЛЕКОМ.
+                                            </p>
+                                            <p class="text">
+                                                <span class="color1">2. Телематические услуги связи</span> по
+                                                выделенным широкополосным
+                                                линиям доступа. Оказываются на основании Лицензии Роскомнадзора на
+                                                оказание
+                                                телематических услуг связи № 151106 от 30.03.2017 г.
+                                                <br>Состав телематических услуг связи:
+                                                <br>а) доступ к сети связи АЗИМУТ ТЕЛЕКОМ;
+                                                <br>б) доступ к информационным системам
+                                                информационно-телекоммуникационных сетей, в том числе сети Интернет;
+                                                <br>в) прием и передачи телематических электронных сообщений.
+                                            </p>
+                                            <p class="text">
+                                                <span class="color1">3. Услуги связи по предоставлению каналов связи.</span>
+                                                Оказываются на основании Лицензии Роскомнадзора на оказание услуг связи
+                                                по предоставлению
+                                                каналов связи № 152939 от 28.06.2017 г.
+                                            </p>
+                                            <p class="text">
+                                                <span class="color1">4. Услуги местной телефонной связи</span>
+                                                Оказываются на основании
+                                                Лицензии Роскомнадзора на оказание услуг местной телефонной связи, за
+                                                исключением
+                                                услуг местной телефонной связи с использованием таксофонов и средств
+                                                коллективного доступа
+                                                № 151108 от 30.03.2017 г.
+                                                <br>Состав услуг местной телефонной связи:
+                                                <br>а) доступ к сети связи АЗИМУТ ТЕЛЕКОМ;
+                                                <br>б) предоставление абонентской линии в постоянное пользование;
+                                                <br>в) предоставление местных телефонных соединений;
+                                                <br>г) доступ к телематическим услугам связи, услугам внутризоновой,
+                                                междугородной и международной связи.
+                                                <br>д) доступ к системам информационно-справочного обслуживания;
+                                                <br>е) возможность бесплатного круглосуточного вызова экстренных
+                                                оперативных служб посредством
+                                                набора единого номера экстренных оперативных служб, а также номеров
+                                                вызова
+                                                соответствующих экстренных оперативных служб, устанавливаемых в
+                                                соответствии с российской системой и планом нумерации.
+                                            </p>
+                                            <p class="text">
+                                                <span class="color1">5. Услуги связи по передаче данных для целей
+                                                    передачи голосовой информации.</span>
+                                                Оказываются на основании Лицензии Роскомнадзора на оказание услуг
+                                                связи по передаче данных для целей передачи голосовой информации №
+                                                152993 от 06.03.2017 г.
+                                                <br>Состав услуги связи по передаче данных для целей передачи голосовой
+                                                информации:
+                                                <br>а) доступ к сети связи АЗИМУТ ТЕЛЕКОМ;
+                                                <br>б) соединения по сети передачи данных АЗИМУТ ТЕЛЕКОМ для целей
+                                                передачи голосовой информации;
+                                                <br>в) доступ к услугам связи по передаче голосовой информации,
+                                                оказываемым операторами, сети передачи
+                                                данных которых взаимодействуют с сетями передачи данных АЗИМУТ ТЕЛЕКОМ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="clear"></div>
+                            </div>
+                        </li>
+
+                        <li id="page_TARIFS">
+                            <div class="box">
+                                <h2>Тарифы и тарифные планы</h2>
+                                <div class="scroll-pane">
+                                    <p class="text">
+                                        Линейка тарифных планов услуги доступа к информационно-телекоммуникационной
+                                        сети "Интернет", оказываемой <span class="color1">АЗИМУТ ТЕЛЕКОМ</span>, включает в
+                                        себя
+                                        планы со скоростями передачи данных от 1 до 100 Мбит/с без ограничения
+                                        передаваемого
+                                        трафика (безлимитные тарифные планы).
+                                    </p>
+                                    <p class="text">
+                                        Для получения информации о тарифах воспользуйтесь, пожалуйста, формой обратной
+                                        связи.
+										<br>
+										Заявку также можно отправить в свободной форме на адрес <span class="color1">
+										<b><a href="mailto:sales@azimuttelecom.ru">sales@azimuttelecom.ru</a></b></span>
+                                        или позвоните нам в офис +7(495) 72 73 600.
+                                    </p>
+                                    <div id="note_tarif">
+                                        <p class="text">
+                                            Внимание! Продолжая работу с данной формой, Вы даете согласие на обработку Ваших персональных
+                                            данных в соответствии с требованиями федерального закона от 27.07.2006г. № 152-ФЗ "О персональных данных"
+                                        </p>
+                                        <p class="text">
+                                            Поля помеченные знаком <span class="ck_mandatory">*</span> обязательны для заполнения
+                                        </p>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div>
+                                        <div id="fields_tarif">
+                                            <form id="ajax-contact-form_tarif">
+                                                <div class="clear"></div>
+                                                <label>Выбор услуг:<span class="ck_mandatory">*</span>:</label>
+                                                <div class="clear"></div>
+                                                <div>
+                                                    <div class="mar">
+                                                        <label style="width: 264px;">Доступ в Интернет</label>
+                                                        <INPUT type="checkbox" name="uslugi[]" value="Доступ в Интернет">
+                                                        <div class="clear"></div>
+                                                        <label style="width: 264px;">Телефония</label>
+                                                        <INPUT type="checkbox" name="uslugi[]" value="Телефония">
+                                                        <div class="clear"></div>
+                                                        <label style="width: 264px;">Виртуальная АТС</label>
+                                                        <INPUT type="checkbox" name="uslugi[]" value="Виртуальная АТС">
+                                                        <div class="clear"></div>
+                                                        <label style="width: 264px;">Канал связи</label>
+                                                        <INPUT type="checkbox" name="uslugi[]" value="Канал связи">
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                <label>Адрес подачи услуг<span class="ck_mandatory">*</span>:</label>
+													<INPUT type="text" name="address" value="">
+													<div class="clear"></div>
+													<label>Контактное лицо<span class="ck_mandatory">*</span>:</label>
+													<INPUT type="text" name="name" value="">
+													<div class="clear"></div>
+													<label>Контактный телефон<span class="ck_mandatory">*</span>:</label>
+													<INPUT type="text" name="phone" value="">
+													<div class="clear"></div>
+													<label>Контактный E-mail<span class="ck_mandatory">*</span>:</label>
+													<INPUT type="text" name="email" value="">
+													<div class="clear"></div>
+												</div>
+                                                <div class="clear"></div>
+                                                <label>Дополнительная информация:</label>
+                                                <TEXTAREA NAME="content"></TEXTAREA>
+                                                <div class="clear"></div>
+                                                <label>Введите код с картинки<span class="ck_mandatory">*</span>:</label>
+                                                <img id="capth_tarif" src="captcha/captcha.php">
+                                                <INPUT class="capthca" type="text" name="capthca" value="">
+                                                <div class="clear"></div>
+                                                <label for="agree-new">Согласен на обработку персональных данных<span
+                                                        class="ck_mandatory">*</span>:</label>
+                                                <input name="agree-new" value="" id="agree-new" type="checkbox" checked="true">
+                                                <div class="clear"></div>
+                                                <INPUT class="submit" type="submit" name="submit" value="Отправить"
+                                                    disable id="submit">
+
+                                            </form>
+                                        </div>  <!--id="fields_tarif"-->
+                                        <div class="clear"></div>
+									</div>
+                                </div>	<!--class="scroll-pane"-->
+                                <div class="clear"></div>
+                            </div>	<!--class="box"-->
+                        </li>
+
+                        <li id="page_LICENSE">
+                            <div class="box">
+                                <h2>Лицензии</h2>
+                                <div class="scroll-pane">
+                                    <div class="gal1">
+                                        <div class="photo1">
+                                            <a href="images/licens/license109832-001.jpg" rel="prettyPhoto[pp_gal1]"
+                                                title="Лицензия на оказание телематических услуг">
+                                                <img src="images/licens/license109832-001.jpg" width="139" class="border1 border2"><span></span>
+                                            </a>
+                                        </div>
+                                        <div class="table">
+                                            <span class="color1">Лицензия на оказание телематических услуг</span>
+                                            <p class="text"></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <div class="gal1 last">
+                                        <div class="photo1">
+                                            <a href="images/licens/license109833-001.jpg" rel="prettyPhoto[pp_gal1]"
+                                                title="Лицензия на оказание оказание услуг местной телефонной связи">
+                                                <img src="images/licens/license109833-001.jpg" width="139" class="border1 border2"><span></span>
+                                            </a>
+                                        </div>
+                                        <div class="table">
+                                            <span class="color1">Лицензия на оказание услуг местной телефонной связи,
+                                                за исключением услуг
+                                                местной связи с использованием таксофонов и средств коллективного
+                                                доступа</span>
+                                            <p class="text"></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                    <br>
+
+                                    <div class="gal1">
+                                        <div class="photo1">
+                                            <a href="images/licens/license109834-001.jpg" rel="prettyPhoto[pp_gal1]"
+                                                title="Лицензия на оказание услуг связи по передаче данных">
+                                                <img src="images/licens/license109834-001.jpg" width="139" class="border1 border2"><span></span>
+                                            </a>
+                                        </div>
+                                        <div class="table">
+                                            <span class="color1">Лицензия на оказание услуг связи по передаче данных,
+                                                за исключением услуг связи
+                                                по передаче данных для целей передачи голосовой информации</span>
+                                            <p class="text"></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <div class="gal1 last">
+                                        <div class="photo1">
+                                            <a href="images/licens/license109835-001.jpg" rel="prettyPhoto[pp_gal1]"
+                                                title="Лицензия на оказание услуг связи по передаче данных ">
+                                                <img src="images/licens/license109835-001.jpg" width="139" class="border1 border2"><span></span>
+                                            </a>
+                                        </div>
+                                        <div class="table">
+                                            <span class="color1">Лицензия на оказание услуг связи по передаче данных
+                                                для целей передачи голосовой информации</span>
+                                            <p class="text"></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                    <br>
+
+                                    <div class="gal1">
+                                        <div class="photo1">
+                                            <a href="images/licens/license109836-001.jpg" rel="prettyPhoto[pp_gal1]"
+                                                title="Лицензия на оказание услуг связи по предоставлению каналов связи">
+                                                <img src="images/licens/license109836-001.jpg" width="139" class="border1 border2"><span></span>
+                                            </a>
+                                        </div>
+                                        <div class="table">
+                                            <span class="color1">Лицензия на оказание услуг связи по предоставлению
+                                                каналов связи</span>
+                                            <p class="text"></p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="page_PODKL">
+                            <div class="box">
+                                <h2>Подключение услуг</h2>
+                                <div class="scroll-pane" style="height: 360px;">
+                                    <p class="text">
+                                        Уважаемые Господа!
+                                    </p>
+                                    <p class="text">
+                                        Для подключения услуг заполните, пожалуйста, форму обратной связи, расположенную 
+                                        ниже и наши менеджеры свяжутся с вами в ближайшее время.<br>
+                                        Заявку так же можно отправить в свободной форме на адрес
+                                        <span class="color1"><b><a href="mailto:sales@azimuttelecom.ru">sales@azimuttelecom.ru</a></b></span>
+                                        или позвоните нам в офис +7(495) 72 73 600.
+                                    </p>
+                                    <div id="note_pod" style="height: 80px">
+                                        <p class="text">
+                                            Внимание! Продолжая работу с данной формой, Вы даете согласие на обработку Ваших персональных
+                                            данных в соответствии с требованиями федерального закона от 27.07.2006г. № 152-ФЗ "О персональных данных"
+                                        </p>
+                                        <p class="text">
+                                            Поля помеченные знаком <span class="ck_mandatory">*</span> обязательны для заполнения
+                                        </p>
+                                    </div>
+                                    <div id="fields_pod">
+                                        <form id="ajax-contact-form_pod" action="javascript:alert('success!');">
+                                            <div class="clear"></div>
+                                            <label>Контактное лицо<span class="ck_mandatory">*</span>:</label>
+                                            <INPUT type="text" name="name" value="">
+                                            <div class="clear"></div>
+                                            <label>Компания:</label>
+                                            <INPUT type="text" name="company" value="">
+                                            <div class="clear"></div>
+                                            <label>Телефон<span class="ck_mandatory">*</span>:</label>
+                                            <INPUT type="text" name="phone" value="">
+                                            <div class="clear"></div>
+                                            <label>E-mail<span class="ck_mandatory">*</span>:</label>
+                                            <INPUT type="text" name="email" value="">
+                                            <div class="clear"></div>
+                                            <label>Интересующие услуги<span class="ck_mandatory">*</span>:</label>
+                                            <div class="clear"></div>
+                                            <div class="mar">
+                                                <label style="width: 264px;">Доступ в Интернет</label>
+                                                <INPUT type="checkbox" name="uslugi[]" value=" Доступ в Интернет">
+                                                <div class="clear"></div>
+                                                <label style="width: 264px;">Телефония</label>
+                                                <INPUT type="checkbox" name="uslugi[]" value=" Телефония">
+                                                <div class="clear"></div>
+                                                <label style="width: 264px;">Другое</label>
+                                                <INPUT type="checkbox" name="uslugi[]" value=" Другое">
+                                                <div class="clear"></div>
+                                            </div>
+                                            <label>Комментарий<span class="ck_mandatory">*</span>:</label>
+                                            <TEXTAREA NAME="content"></TEXTAREA>
+                                            <div class="clear"></div>
+                                            <label>Введите код с картинки<span class="ck_mandatory">*</span>:</label>
+                                            <img id="capth_pod" src="captcha/captcha.php">
+                                            <INPUT class="capthca" type="text" name="capthca" value="">
+                                            <div class="clear"></div>
+                                            <label for="agree-new">Согласен на обработку персональных данных<span class="ck_mandatory">*</span>:</label>
+                                            <input name="agree-new" value="" id="agree-new" type="checkbox" checked="true">
+                                            <div class="clear"></div>
+                                            <INPUT class="submit" type="submit" name="submit" value="Отправить" disable
+                                                id="submit">
+                                        </form>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="page_TP">
+                            <div class="box">
+                                <h2>Техническая поддержка</h2>
+                                <div class="scroll-pane">
+                                    <p class="text" style="font-size: 16px">
+                                        <b>Информация о сроках устранения неисправностей, препятствующих пользованию
+                                            услугами связи</b>
+                                    </p>
+                                    <p class="text">
+                                        <span class="color1">АЗИМУТ ТЕЛЕКОМ</span> (далее – Оператор) обязуется
+                                        предоставлять Абоненту
+                                        Услуги связи 24 (двадцать четыре) часа в сутки, в соответствии с
+                                        законодательством РФ,
+                                        правилами оказания услуг связи, лицензиями и Договором.
+                                        <br>Оператор обязуется соблюдать сроки устранения неисправностей,
+                                        препятствующих пользованию услугами связи:
+                                        <ul class="ul1">
+                                            <li><a href="#" onclick="return false;">Оператор обязуется устранять
+                                                    неисправности, препятствующие
+                                                    пользованию услугами связи, по заявке абонента в срок не
+                                                    превышающий
+                                                    72 часов с момента принятия заявки Оператором, если иное не
+                                                    установлено законодательством и
+                                                    за исключением случаев отсутствия доступа Оператора к месту
+                                                    повреждения,
+                                                    возникших не по его вине;</a></li>
+                                            <li><a href="#" onclick="return false;">В случаях крупных аварий и в
+                                                    случае, если по характеру
+                                                    повреждения сети связи неисправности не могут быть устранены в
+                                                    установленный
+                                                    срок, в том числе если повреждения вызваны действиями третьих лиц
+                                                    (акты вандализма, кражи,
+                                                    иная порча имущества Оператора связи), сроки устранения
+                                                    неисправностей
+                                                    определяются Оператором отдельно с предварительным уведомлением
+                                                    Абонента. </a></li>
+                                            <li><a href="#" onclick="return false;">Неисправности, возникшие по вине
+                                                    Абонента, устранять с
+                                                    учетом технических возможностей за дополнительную плату, в
+                                                    соответствии с
+                                                    действующими тарифами Оператора.</a></li>
+                                        </ul>
+                                    </p>
+                                    <br>
+                                    <p class="text" style="font-size: 16px">
+                                        <b>Обращение Абонентов в службу технической поддержки</b>
+                                    </p>
+                                    <p class="text">
+                                        Обратиться в службу технической поддержки <span class="color1">АЗИМУТ ТЕЛЕКОМ</span>
+                                        Вы можете по телефонам +7(495) 72 73 600, +7(495) 240-53-53,
+                                        по электронной почте <span class="color1"><b>
+                                        <a href="mailto:help@azimuttelecom.ru">help@azimuttelecom.ru</a></b></span>,
+                                        или через форму обратной связи, расположенную ниже.
+                                    </p>
+                                    <p class="text">
+                                        В случае обращения Абонента к Оператору в связи с выявлением каких-либо
+                                        неисправностей Абонент должен быть готов:
+                                        <br>- сообщить адрес подключения или номер договора;
+                                        <br>- назвать абонента, на которого оформлен договор;
+                                        <br>- описать проблему/неисправность, периодичность возникновения
+                                        проблемы/неисправности;
+                                        <br>- возникала ли эта проблема/неисправность ранее, если да, то как решилась;
+                                        <br>- описать действия, которые уже были предприняты.
+                                    </p>
+                                    <div id="note">
+                                        <p class="text">
+                                            Внимание! Продолжая работу с данной формой, Вы даете согласие на обработку Ваших персональных
+                                            данных в соответствии с требованиями федерального закона от 27.07.2006г. № 152-ФЗ "О персональных данных".
+                                        </p>
+                                        <p class="text">
+                                            Поля помеченные знаком <span class="ck_mandatory">*</span> обязательны для
+                                            заполнения
+                                        </p>
+                                    </div>
+                                    <div id="fields">
+                                        <form id="ajax-contact-form" action="javascript:alert('success!');">
+                                            <div class="clear"></div>
+                                            <label>ФИО<span class="ck_mandatory">*</span>:</label>
+                                            <INPUT type="text" name="name" value="">
+                                            <div class="clear"></div>
+                                            <label>Название компании<span class="ck_mandatory">*</span>:</label>
+                                            <INPUT type="text" name="company" value="">
+                                            <div class="clear"></div>
+                                            <label>Контактный номер телефона<span class="ck_mandatory">*</span>:</label>
+                                            <INPUT type="text" name="phone" value="">
+                                            <div class="clear"></div>
+                                            <label>Описание проблемы<span class="ck_mandatory">*</span>:</label>
+                                            <TEXTAREA NAME="content"></TEXTAREA>
+                                            <div class="clear"></div>
+                                            <label>Введите код с картинки<span class="ck_mandatory">*</span>:</label>
+                                            <img id="capth" src="captcha/captcha.php">
+                                            <INPUT class="capthca" type="text" name="capthca" value="">
+                                            <div class="clear"></div>
+                                            <label for="agree-support">Согласен на обработку персональных данных
+                                                <span class="ck_mandatory">*</span>:</label>
+                                            <input name="agree-support" value="" id="agree-support" type="checkbox" checked="true">
+                                            <div class="clear"></div>
+                                            <INPUT class="submit" type="submit" name="submit" value="Отправить">
+                                        </form>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>	
+                            </div>	
+                        </li>
+
+                        <li id="page_DOCS">
+                            <div class="box">
+                                <div class="scroll-pane">
+                                    <p class="text_docs">
+                                        <a href="#!/page_CONFID">Политика конфиденциальности</a>
+                                    </p>
+                                    <p class="text_docs">
+                                        <a href="#!/page_LAWS">Нормативные акты</a>
+                                    </p>
+
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="page_CONFID">
+                            <div class="box">
+                                <h2>Политика конфиденциальности Оператора</h2>
+                                <div class="scroll-pane">
+                                    <p> Настоящая Политика конфиденциальности персональной информации (далее —
+                                        Политика) действует в отношении всей информации,
+                                        которую АЗИМУТ ТЕЛЕКОМ (далее — Администрация), может получить о пользователе
+                                        во время использования им сайта,
+                                        расположенного в сети Интернет по адресу <a href="http://azimuttelecom.ru/">http://azimuttelecom.ru/</a>
+                                        (далее — Сайт).
+                                    </p>
+                                    <p> Использование Сайта означает безоговорочное согласие пользователя с настоящей
+                                        Политикой и указанными в ней условиями
+                                        обработки его персональной информации; в случае несогласия с этими условиями
+                                        пользователь должен воздержаться от использования Сайта.
+                                    </p>
+                                    <p>1. Персональная информация пользователей, которую получает и обрабатывает
+                                        Администрация</p>
+                                    <p>1.1. В рамках настоящей Политики под «персональной информацией пользователя»
+                                        понимаются:</p>
+                                    <p>1.1.1. Персональная информация, которую пользователь предоставляет о себе
+                                        самостоятельно в процессе использования Сайта,
+                                        включая персональные данные пользователя. Обязательная для предоставления
+                                        информация помечена специальным образом.
+                                        Иная информация предоставляется пользователем на его усмотрение.
+                                    </p>
+                                    <p> 1.1.2. Данные, которые в процессе использования Сайта автоматически передаются
+                                        с помощью установленного на устройстве
+                                        пользователя программного обеспечения, в том числе IP-адрес, информация из
+                                        cookie, информация о браузере пользователя
+                                        (или иной программе, с помощью которой осуществляется доступ к Сервисам), время
+                                        доступа, адрес запрашиваемой страницы.
+                                    </p>
+                                    <p>1.2. Настоящая Политика применима только к Сайту. Администрация не контролирует
+                                        и не несет ответственность за сайты
+                                        третьих лиц, на которые пользователь может перейти по ссылкам, доступным на
+                                        Сайте. На таких сайтах у пользователя может
+                                        собираться или запрашиваться иная персональная информация, а также могут
+                                        совершаться иные действия.
+                                    </p>
+                                    <p>1.3. Администрация в общем случае не проверяет достоверность персональной
+                                        информации, предоставляемой пользователями,
+                                        и не осуществляет контроль за их дееспособностью. Однако Администрация исходит
+                                        из того, что пользователь предоставляет
+                                        достоверную и достаточную персональную информацию.
+                                    </p>
+                                    <p>2. Цели сбора и обработки персональной информации пользователей</p>
+                                    <p>2.1. Администрация собирает и хранит только те персональные данные, которые
+                                        необходимы для предоставления сервисов и оказания услуг.</p>
+                                    <p>2.2. Персональную информацию пользователя Администрация может использовать в
+                                        следующих целях:</p>
+                                    <p>2.2.1. Идентификация стороны в рамках соглашений с Администрацией;</p>
+                                    <p>2.2.2. Предоставление пользователю персонализированных Сервисов;</p>
+                                    <p>2.2.3. Связь с пользователем, в том числе направление уведомлений, запросов и
+                                        информации, касающихся использования
+                                        Сервисов, оказания услуг, а также обработка запросов и заявок от пользователя;
+                                    </p>
+                                    <p>2.2.4. Улучшение качества Сервисов, удобства их использования, разработка новых
+                                        Сервисов и услуг;</p>
+                                    <p>2.2.5. Таргетирование рекламных материалов;</p>
+                                    <p>2.2.6. Проведение статистических и иных исследований на основе обезличенных
+                                        данных.</p>
+                                    <p>3. Условия обработки персональной информации пользователя и её передачи третьим
+                                        лицам</p>
+                                    <p>3.1. Администрация хранит персональную информацию пользователей в соответствии с
+                                        внутренними регламентами.</p>
+                                    <p>3.2. Администрация вправе передать персональную информацию пользователя третьим
+                                        лицам в следующих случаях:</p>
+                                    <p>3.2.1. Передача необходима в рамках использования пользователем определенного
+                                        Сервиса либо для оказания услуги пользователю;</p>
+                                    <p>3.2.2. Передача предусмотрена российским или иным применимым законодательством в
+                                        рамках установленной законодательством процедуры;</p>
+                                    <p>3.2.3. Такая передача происходит в рамках продажи или иной передачи бизнеса
+                                        (полностью или в части), при этом к приобретателю
+                                        переходят все обязательства по соблюдению условий настоящей Политики
+                                        применительно к полученной им персональной информации;
+                                    </p>
+                                    <p>3.2.4. В целях обеспечения возможности защиты прав и законных интересов
+                                        Администрации или третьих лиц.</p>
+                                    <p>3.3. При обработке персональных данных пользователей Администрация
+                                        руководствуется Федеральным законом РФ «О персональных данных».</p>
+                                    <p>4. Меры, применяемые для защиты персональной информации пользователей</p>
+                                    <p>Администрация принимает необходимые и достаточные организационные и технические
+                                        меры для защиты персональной информации
+                                        пользователя от неправомерного или случайного доступа, уничтожения, изменения,
+                                        блокирования, копирования, распространения,
+                                        а также от иных неправомерных действий с ней третьих лиц.
+                                    </p>
+                                    <p>5. Изменение Политики конфиденциальности. Применимое законодательство</p>
+                                    <p>5.1. Администрация имеет право вносить изменения в настоящую Политику
+                                        конфиденциальности. При внесении изменений в
+                                        актуальной редакции указывается дата последнего обновления. Новая редакция
+                                        Политики вступает в силу с момента ее
+                                        размещения, если иное не предусмотрено новой редакцией Политики. Действующая
+                                        редакция всегда находится на странице
+                                        по адресу <a href="#!/page_CONFID">http://azimuttelecom.ru/#!/page_CONFID</a>.
+                                    </p>
+                                    <p>5.2. К настоящей Политике и отношениям между пользователем и Администрацией,
+                                        возникающим в связи с применением
+                                        Политики конфиденциальности, подлежит применению право Российской Федерации.
+                                    </p>
+                                    <p>6. Обратная связь. Вопросы и предложения</p>
+                                    <p>Все предложения или вопросы по поводу настоящей Политики следует сообщать <a
+                                            href="#!/page_ABOUT">Администрации</a></p>
+
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li id="page_LAWS">
+                            <div class="box">
+                                <h2>Нормативные акты</h2>
+                                <div class="scroll-pane" style="height: 290px;">
+                                    <p class="text">
+                                        Отношения между Абонентом или Пользователем и оператором связи АЗИМУТ ТЕЛЕКОМ,
+                                        оказывающим услуги связи,
+                                        регулируются правилами оказания услуг, доступными по ссылкам:
+                                    </p>
+                                    <p class="text">
+                                        <a href="http://pravo.gov.ru/proxy/ips/?docbody=&nd=102116551&intelsearch=%CF%F0%E0%E2%E8%EB%E0+%EE%EA%E0%E7%E0%ED%E8%FF+%F2%E5%EB%E5%EC%E0%F2%E8%F7%E5%F1%EA%E8%F5+%F3%F1%EB%F3%E3+%F1%E2%FF%E7%E8+%28%F3%F2%E2.+%EF%EE%F1%F2%E0%ED%EE%E2%EB%E5%ED%E8%E5%EC+%CF%F0%E0%E2%E8%F2%E5%EB%FC%F1%F2%E2%E0+%D0%D4+%EE%F2+10+%F1%E5%ED%F2%FF%E1%F0%FF+2007+%E3.+N+575%29"
+                                            target="_blank">
+                                            Правила оказания телематических услуг связи</a>, утвержденные
+                                        постановлением Правительства РФ от 10 сентября 2007 г. N 575
+                                    </p>
+                                    <p class="text">
+                                        <a href="http://pravo.gov.ru/proxy/ips/?docbody=&nd=102104400&intelsearch=%CF%F0%E0%E2%E8%EB%E0+%EE%EA%E0%E7%E0%ED%E8%FF+%F3%F1%EB%F3%E3+%F1%E2%FF%E7%E8+%EF%EE+%EF%E5%F0%E5%E4%E0%F7%E5+%E4%E0%ED%ED%FB%F5"
+                                            target="_blank">
+                                            Правила оказания услуг связи по передаче данных</a>, утвержденные
+                                        постановлением Правительства РФ от 23 января 2006 г. N 32
+                                    </p>
+                                    <p class="text">
+                                        <a href="http://pravo.gov.ru/proxy/ips/?docbody=&nd=102363603&intelsearch=%EE%F2+09.12.2014+N+1342"
+                                            target="_blank">
+                                            Правила оказания услуг телефонной связи</a>, утвержденные постановлением
+                                        Правительства РФ от 9 декабря 2014 г. N 1342
+                                    </p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </article>
+                <!--end of content -->
+
+
+                <div class="px1"></div>
+
+            </div>
+        </div>
+        <div class="block"></div>
+    </div>
+    <footer>
+        <div class="copyright">Copyright © 2018. ООО "АЗИМУТ ТЕЛЕКОМ". Все права защищены.&nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="http://seolinks.ru/">Создание и продвижение сайтов - SEOLINKS</a>
+        </div>
+        <ul class="icons">
+            <!--<li><a href="#"><img src="images/social_ic1.png"></a></li>
+            <li><a href="#"><img src="images/social_ic2.png"></a></li>
+            <li><a href="#"><img src="images/social_ic3.png"></a></li>
+            <li><a href="#"><img src="images/social_ic4.png"></a></li>
+            <li><a href="#"><img src="images/social_ic5.png"></a></li>
+            <li><a href="#"><img src="images/social_ic6.png"></a></li>-->
+        </ul>
+        <!--<div class="icons_txt">find us on:</div>-->
+        <div class="tola">
+
+            <div id="jquery_jplayer" class="jp-jplayer"></div>
+
+            <!-- Using the cssSelectorAncestor option with the default cssSelector class names to enable control association of standard functions using built in features -->
+
+            <div id="jp_container" class="jp-audio">
+                <ul class="jp-controls">
+
+                    <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute"></a></li>
+                    <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute"></a></li>
+                    <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume"></a></li>
+                </ul>
+                <div class="jp-txt">громкость</div>
+                <div class="jp-volume-bar">
+                    <div class="jp-volume-bar-value"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
