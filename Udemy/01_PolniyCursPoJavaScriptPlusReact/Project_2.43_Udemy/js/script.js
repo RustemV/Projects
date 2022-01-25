@@ -91,10 +91,39 @@ window.addEventListener('DOMContentLoaded', () => {
     }
     
     updateClock();  // первый вызов сразу устраняет появление значений из вёрстки при обновлении html-страницы
-    const timerId = setInterval( () => updateClock(deadline), 1000);    // периодический вызов для 
-                                                                        // обновления таймера на странице
+    const timerId = setInterval( () => updateClock(deadline), 1000);  // периодический вызов для обновления таймера на странице
+    
+    
     //Modal
     
+    const   modalTrigger = document.querySelectorAll('[data-open_modal]'),
+            modalForm = document.querySelector('.modal'),
+            modalClosure = document.querySelector('[data-close_modal]');
+
+    function openForm (form) {
+        form.classList.add('show');
+        form.classList.remove('hide');     
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeForm(form) {
+        form.classList.add('hide');
+        form.classList.remove('show');  
+        document.body.style.overflow = '';   
+    }
+
+    modalTrigger.forEach(trigger => {
+        trigger.addEventListener('click', () => openForm(modalForm));
+    });
     
+    modalClosure.addEventListener('click', () => closeForm(modalForm));
+
+    // Для закрытия модального окна при щелчке в поле вне окна (то есть в элемент с class="modal", само окно - элемент с class="modal__dialog")
+    modalForm.addEventListener('click', (e) => {
+        if (e.target === modalForm) {
+            closeForm(modalForm);
+        }
+    });
+
 
 });
