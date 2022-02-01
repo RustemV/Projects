@@ -1,0 +1,32 @@
+* {
+    box-sizing:border-box;
+}
+
+.main {
+    margin: 0px auto;
+    /* padding: 1px; */
+    /* border: 1px solid rgba(255,255,255, 0); */
+    width: 600px;
+    height: 400px;
+    background-color: #aeaeae;
+}
+
+.box {
+    margin: 30px auto;
+    padding: 20px;
+    width: 400px;
+    background-color:aquamarine;
+}
+
+.box_in1 {
+    margin: 20px 0px;
+    background-color:rgb(244, 245, 175);
+}
+
+.box_in2 {
+    margin:5px auto;
+    /* width: 300px; */
+    height: 200px;;
+    overflow:auto;
+    background-color: rgb(244, 245, 175);
+}
