@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
         form.classList.add('show');
         form.classList.remove('hide');  
         document.body.style.overflow = 'hidden';
-    };
+    }
 
     function closeForm(form, sheme) {
         sheme.classList.remove('show'); 
