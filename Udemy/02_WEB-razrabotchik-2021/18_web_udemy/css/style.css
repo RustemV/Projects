@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -23,7 +24,6 @@
 .promo .logo_text {
     color: #FFFFFF;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     text-transform: uppercase;
@@ -37,7 +37,6 @@ h1 {
 
 .title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 41px;
     text-align: center;
@@ -51,7 +50,6 @@ h2.title {
 
 .title_big {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 80px;
     text-align: center;
@@ -64,7 +62,6 @@ h2.title {
     margin-top: 23px;
     padding: 0 13px;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -101,7 +98,6 @@ h2.title {
 
 .more .more_text {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 100;
     font-size: 15px;
     align-items: center;
@@ -113,4 +109,100 @@ h2.title {
 .more .more_img {
     display: block;
     margin: 4px auto 0;
+}
+
+.waiting {
+    min-height: 607px;
+    padding: 85px 0 75px;
+    background: #EFEFEF;
+}
+
+.waiting .waiting_header {
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.waiting_divider {
+    margin: 19px auto 0;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+
+.waiting_subheader {
+    margin-top: 18px;
+    font-family: Roboto;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.waiting_wrapper {
+    display:flex;
+    justify-content: space-between;
+    margin: 46px auto 0;
+}
+
+.waiting_item {
+    vertical-align: top;
+    width: 360px;
+}
+
+.waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting_item .waiting_descr {
+    margin-top: 26px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.optimization {
+    min-height: 547px;
+    padding: 108px 0 72px 0;
+}
+
+.optimization_header {
+    margin-left: 391px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization_text {
+    margin: 25px 0 0 391px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    /* display: flex;
+    align-items: center; */
+    color: #4A4A4A;
+
+}
+
+.optimization_text span {
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.optimization_img {
+    position: absolute;
+    width: 868px;
+    height: 502px;
+    left: -240px;
+    top: -61px;
+    z-index: -1;
 }
