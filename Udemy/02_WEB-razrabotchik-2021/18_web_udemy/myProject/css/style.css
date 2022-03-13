@@ -15,7 +15,7 @@ html {
 }
 
 .promo {
-    height: 800px;
+    min-height: 800px;
     background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;    
     padding: 38px 0 61px 0;
 }
@@ -48,20 +48,20 @@ h1 {
 }
 
 h2.title {
-    margin-top: 21px;
+    margin-top: 20px;
 }
 
 .title_big {
+    margin-top: 20px;
     font-weight: 900;
     font-size: 80px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 21px;
 }
 
 .promo_text {
-    margin-top: 23px;
+    margin-top: 22px;
     padding: 0 13px;
     font-weight: 300;
     font-size: 21px;
@@ -99,7 +99,7 @@ h2.title {
 .more .more_text {
     font-weight: 100;
     font-size: 15px;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
