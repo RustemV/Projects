@@ -1,0 +1,214 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 52px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    background: #212121;
+    z-index: 2;
+}
+
+.menu {
+    padding: 14px 71px;
+    margin: 0;  /* обнуление margin в bootstrap-reboot */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /*убрать маркеры */
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    height: 87px;
+    background:rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.subheader_logo {
+    max-width: 100%;
+    display: block;
+    margin-top: 19px;
+}
+
+.subheader_official {
+    height: 68px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader_call {
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader_phone {
+    font-weight: 400;
+    font-size: 22px;
+    display: block;
+    line-height: 32px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.subheader_btn {
+    width: 172px;
+    height: 46px;
+    margin-top: 19px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    /* position: relative;
+    top: 52px; */
+    min-height: 799px;
+    background: url("../img/uber_bg.png") center center/cover no-repeat;
+    padding: 152px 0 185px;
+}
+
+h1.promo_header {
+    margin: 0;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+h2.promo_subheader {
+    margin: 23px 0 0;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.promo_descr {
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo_btn {
+    display: block;
+    margin: 116px auto 0;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border:none;
+    border-radius: 4px;
+}
+
+.advantages {
+    /* position: relative;
+    top: 52px; */
+    min-height: 849px;
+    padding: 18px 0 64px;
+    background-color: #FFFFFF;
+}
+
+.adv_title {
+    width: 115px;
+    height: 27px;
+    margin: 0 auto;
+    padding: 9px 0 0 0;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background:#000000;
+}
+
+.adv_subtitle {
+    margin: 33px 0 16px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.adv_item {
+    /* min-height: 116px; */
+    margin-top: 30px;
+    display: flex;
+    /* justify-content:space-evenly; */
+    justify-content: center;
+    align-items:center;
+}
+
+.adv_item:hover {
+    border: dashed black 1px;
+}
+
+.adv_round {
+    width: 116px;
+    height: 116px;
+    margin-right: 25px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adv_descr {
+    width: 371px;
+    /* height: 150px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.adv_item span {
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+ }

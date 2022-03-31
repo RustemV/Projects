@@ -1,0 +1,28 @@
+$text_color: blue
+@mixin box
+    display: block
+    width: 250px
+    height: 200px
+    background-color: red
+
+h1
+    @include box
+    color: $text_color
+    font-size: 50px
+h2
+    color: blue
+    display: block
+.block
+    background-color: black
+    h3
+        color: $text_color
+    &_color
+        background-color: #ffff
+        button
+            @include box
+    .block_color
+        color: $text_color
+        background-color: yellow
+        
+    
+
